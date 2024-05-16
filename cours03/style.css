@@ -1,0 +1,8 @@
+/* Le sélecteur est h1: 
+	tous les éléments de la page de type h1 seront...*/
+    h1 { 
+        color: blue;	 /* de couleur bleue */
+        font-size: 7vh;	 /* de taille 7% de la hauteur de l'écran */
+        font-weight: bold;	/* écrits en gras */
+        text-decoration:underline; /* Souligné*/
+    }

@@ -9,17 +9,70 @@
     <h1 id="titre-principal">Démonstration des formulaires</h1>
     <form action="www.etsmlt.ca/formulairedemo/triter.php" method="GET">
       <label for="nom">Nom:</label
-      ><input id="nom" type="text" name="nom_famille" /><br />
+      ><input id="nom" type="text" name="nom_famille" value="Valjean" /><br />
       <label for="prenom">Prenom:</label
-      ><input id="prenom" type="text" name="prenom" /><br />
+      ><input id="prenom" type="text" name="prenom" value="Jean" /><br />
       <label for="age">Age:</label>
       <input id="age" type="number" /><br />
       <label for="courriel">Courriel:</label>
-      <input id="courriel" type="email" /><br />
+      <input
+        id="courriel"
+        type="email"
+        placeholder="Saisir votre courriel"
+      /><br />
       <label for="login">Login:</label>
       <input id="login" type="text" /><br />
       <label for="mdp">Mot de passe:</label>
       <input id="mdp" type="password" /><br />
+      <!--<label for="fonction">Votre fonction:</label>
+      <input
+        type="radio"
+        id="fonction-etudiant"
+        value="etudiant"
+        name="fonction"
+      /><label for="fonction-etudiant">Étudiant-e</label>
+      <input
+        type="radio"
+        id="fonction-professeur"
+        value="professeur"
+        name="fonction"
+      /><label for="fonction-professeur">Professeur-e</label>-->
+      <!--<label for="fonction">Fonction:</label>
+      <select name="fonction" id="fonction" multiple>
+        <option value="">--- Veuillez choisir --</option>
+        <option value="1">Étudiant-e</option>
+        <option value="2">Professeur-e</option>
+        <option value="3">Chercheur-e</option>
+      </select>-->
+      <label>Fonction</label><br />
+      <input
+        type="checkbox"
+        id="fonction-etudiant"
+        name="fonction-etudiant"
+        value="1"
+        checked
+      /><label for="fonction-etudiant">Étudiant-e</label>
+      <input
+        type="checkbox"
+        id="fonction-prof"
+        name="fonction-prof"
+        value="1"
+      /><label for="fonction-prof">Professeur-e</label>
+      <input
+        type="checkbox"
+        id="fonction-chercheur"
+        name="fonction-chercheur"
+        value="1"
+      /><label for="fonction-chercheur">Chercheur-e</label>
+      <br />
+      <label for="bio">Bio:</label><br />
+      <textarea
+        id="bio"
+        name="bio"
+        cols="80"
+        rows="10"
+        placeholder="Saisir votre biographie"
+      ></textarea>
     </form>
   </body>
 </html>
