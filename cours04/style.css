@@ -1,0 +1,23 @@
+
+p.reaction-souris{
+    color: darkblue;
+}
+
+p.reaction-souris:hover{
+    color: red;
+}
+
+div.boite-change-courleur{
+    width: 300px;
+    height: 300px;
+    background-color: darkgray;
+}
+
+div.boite-change-courleur:hover{
+    background-color: gold;
+    width: 150px;
+}
+
+input:invalid{
+    border: 1px solid red;
+}
