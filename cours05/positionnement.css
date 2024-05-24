@@ -1,0 +1,17 @@
+.boite1{
+    background-color: lightcoral;
+    width: 400px;
+}
+
+.boite2{
+    background-color: lightcyan;
+    width: 400px;
+    position: relative;
+    left: 200px;
+    top: 50px;
+}
+
+.boite3{
+    background-color: lightgreen;
+    width: 400px;
+}

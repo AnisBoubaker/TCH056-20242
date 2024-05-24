@@ -1,0 +1,13 @@
+.conteneur{
+	padding: 10px;
+	border: 1px solid lightcoral;
+	display: flex;
+	/*Par défaut: row*/
+	flex-direction: row;
+}
+.boite{
+	width: 5rem;
+	height: 5rem; 
+	margin: 10px;
+	background-color: gold;
+}

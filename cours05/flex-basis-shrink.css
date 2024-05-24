@@ -1,0 +1,31 @@
+
+.conteneur{
+    width: 18rem;
+    height: 70vh;
+    padding: 10px;
+    border: 1px solid lightcoral;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: start;
+    flex-wrap: nowrap;
+    /* Décommentez et expérimentez avec les lignes ci-dessous */
+    /*
+    flex-wrap: wrap; 
+    align-content: center;
+    */
+}
+.boite{
+    width: 3rem;
+    margin: 10px;
+    padding: 1rem;
+    background-color: gold;
+}
+            
+.boiteB{
+    flex-grow: 1;
+}
+
+.boiteD{
+    flex-grow: 2;
+}
