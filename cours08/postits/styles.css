@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    margin: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #333;
+}
+
+#listePostIts {
+    display: flex;
+    flex-direction: column; /* Ajouté pour organiser les éléments en colonne */
+    align-items: center; /* Centre les éléments horizontalement */
+}
+
+#listePostIts h2 {
+    width: 100%; /* Assure que le titre prend toute la largeur */
+    text-align: center; /* Centre le texte du titre */
+    margin-bottom: 30px; /* Ajoute une marge en bas de la section des post-its */
+}
+
+#listePostIts .postit-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    width: 100%; /* Assure que le conteneur prend toute la largeur */
+    margin-bottom: 40px;
+}
+
+.postit-container > div {
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 300px; /* Largeur maximale de 300px */
+    box-sizing: border-box;
+}
+
+.postit {
+    background-color: #ffeb3b;
+    color: #000;
+}
+
+.postit-important {
+    background-color: #f45622;
+    color: #fff;
+}
+
+/* Styles pour les formulaires */
+form {
+    display: grid;
+    grid-gap: 10px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Assure que le padding ne modifie pas la largeur */
+}
+
+input[type="submit"],
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #007bff;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#authentification{
+    display: none;
+}
+
+section#creationPostIt{
+    display: none;
+}

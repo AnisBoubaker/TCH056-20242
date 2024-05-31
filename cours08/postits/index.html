@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Babillard de Post-its Électroniques</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./data.js"></script>
+    <!-- Lien vers le fichier CSS -->
+  </head>
+  <body>
+    <header>
+      <h1>Babillard de Post-its Électroniques</h1>
+    </header>
+
+    <section id="authentification">
+      <h2>Authentification</h2>
+      <form id="loginForm">
+        <label for="username">Nom d'utilisateur:</label>
+        <input type="text" id="username" name="username" required />
+
+        <label for="password">Mot de passe:</label>
+        <input type="password" id="password" name="password" required />
+
+        <button type="submit">Se connecter</button>
+      </form>
+    </section>
+
+    <section id="creationPostIt">
+      <h2>Créer un Nouveau Post-it</h2>
+      <form id="newPostItForm">
+        <label for="title">Titre:</label>
+        <input type="text" id="title" name="title" required />
+
+        <label for="content">Contenu:</label>
+        <textarea id="content" name="content" required></textarea>
+
+        <button type="submit">Créer Post-it</button>
+      </form>
+    </section>
+
+    <section id="listePostIts">
+      <h2>Liste des Post-its</h2>
+      <div class="postit-container">
+        <div class="postit" id="postit1">
+          <h3>Titre du Post-it 1</h3>
+          <p>
+            Contenu du Post-it 1. Ceci est un exemple de texte pour le premier
+            post-it.
+          </p>
+        </div>
+        <div class="postit" id="postit2">
+          <h3>Titre du Post-it 2</h3>
+          <p>
+            Contenu du Post-it 2. Un autre exemple de texte pour le deuxième
+            post-it.
+          </p>
+        </div>
+        <div class="postit" id="postit3">
+          <h3>Titre du Post-it 3</h3>
+          <p>
+            Contenu du Post-it 3. Voici un troisième exemple de texte pour un
+            post-it.
+          </p>
+        </div>
+        <div class="postit" id="postit4">
+          <h3>Titre du Post-it 3</h3>
+          <p>
+            Contenu du Post-it 3. Voici un troisième exemple de texte pour un
+            post-it.
+          </p>
+        </div>
+        <div class="postit" id="postit5">
+          <h3>Titre du Post-it 3</h3>
+          <p>
+            Contenu du Post-it 3. Voici un troisième exemple de texte pour un
+            post-it.
+          </p>
+        </div>
+      </div>
+      <!-- Plus de post-its peuvent être ajoutés ici -->
+    </section>
+
+    <footer>
+      <p>&copy; 2023 Babillard de Post-its Électroniques</p>
+    </footer>
+  </body>
+</html>
