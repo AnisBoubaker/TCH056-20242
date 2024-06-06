@@ -1,0 +1,27 @@
+html{
+    font-size: 62.5%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 5rem auto;
+}
+
+td {
+    border: 1px solid #000;
+    padding: 1rem;
+    text-align: center;
+    width: 5rem;
+    height: 5rem;
+}
+
+.blanc{
+    background-color: white;
+    color: black;
+}
+
+.noir{
+    background-color: black;
+    color: white;
+}
