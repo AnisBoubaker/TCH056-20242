@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "user_id": 1,
+    "title": "R\u00e9union d'\u00e9quipe",
+    "content": "N'oubliez pas la r\u00e9union demain \u00e0 10h dans la salle de conf\u00e9rence.",
+    "created_at": "2024-02-01 20:42:20"
+  },
+  {
+    "id": 2,
+    "user_id": 1,
+    "title": "Rappel de projet",
+    "content": "La date limite pour le projet X est le 15 mars.",
+    "created_at": "2024-02-01 20:45:17"
+  },
+  {
+    "id": 3,
+    "user_id": 1,
+    "title": "Anniversaire de Laura",
+    "content": "C'est l'anniversaire de Laura le 22 mars. Penser \u00e0 acheter un cadeau.",
+    "created_at": "2024-02-01 20:45:50"
+  },
+  {
+    "id": 4,
+    "user_id": 1,
+    "title": "Dentiste",
+    "content": "Rendez-vous le 20 mars \u00e0 14h30.",
+    "created_at": "2024-02-01 20:46:15"
+  },
+  {
+    "id": 5,
+    "user_id": 1,
+    "title": "R\u00e9union avec le client",
+    "content": "R\u00e9union avec le client XYZ le 25 mars \u00e0 11h.",
+    "created_at": "2024-02-01 20:48:36"
+  },
+  {
+    "id": 6,
+    "user_id": 1,
+    "title": "Rapport",
+    "content": "Pr\u00e9parer le rapport mensuel pour la r\u00e9union du 30 mars.",
+    "created_at": "2024-02-01 20:48:59"
+  }
+]
