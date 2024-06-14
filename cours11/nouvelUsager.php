@@ -28,7 +28,7 @@ if(isset($_POST["username"]) && isset($_POST["password"]) && isset($_POST["email
       exit();
     } else {
       $nbErreurs++;
-      $erreur = $erreur+ "Erreur lors de l'insertion dans la base de données.";
+      $erreur = $erreur . "Erreur lors de l'insertion dans la base de données.";
     }
 
     
